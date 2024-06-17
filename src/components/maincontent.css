@@ -1,0 +1,101 @@
+.main-content {
+    background-color: white;
+    width: 70vw;
+    height:85vh;
+  }
+  
+  .form-container h2 {
+    color: #255d5b;
+  }
+  .form-container{
+   padding:20px;
+   width: 60%;
+   align-self: center;
+  }
+  
+  .form-group {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    padding:1cap;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+  }
+  
+  .form-group button {
+    padding: 10px 20px;
+    background-color: #17bebb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .form-group button:hover {
+    background-color: #139f9a;
+  }
+  
+  .terms {
+    margin: 20px 0;
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .terms a {
+    color: #17bebb;
+    text-decoration: none;
+  }
+  
+  .terms a:hover {
+    text-decoration: underline;
+  }
+  
+  #continue {
+    padding: 15px;
+    width: 100%;
+    background-color: #255d5b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #continue:hover {
+    background-color: #1e4d4d;
+  }
+  
+  .tooltip {
+    position:absolute;
+    top: 100px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tooltip p {
+    margin: 0;
+  }
+  
+  .tooltip button {
+    background-color: white;
+    color: #007bff;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .tooltip button:hover {
+    background-color: #e6e6e6;
+  }
+  
